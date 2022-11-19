@@ -16,7 +16,7 @@ public class StringBuilderTest {
         System.out.println("nameBuilder.reverse() = " + nameBuilder.reverse());
 
         StringBuilder anotherBuilder = new StringBuilder("ahahahaha");
-        System.out.println("nameBuilder.compareTo(nameBuilder) = " + nameBuilder.compareTo(nameBuilder.append("!")));
+        System.out.println("nameBuilder.compareTo(nameBuilder) = " + nameBuilder.compareTo(nameBuilder.append("qq!")));
 
         String s = nameBuilder.toString();
         System.out.println(s);
